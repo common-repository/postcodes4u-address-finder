@@ -1,0 +1,34 @@
+/* Postcodes4u Control Styling */
+.Pc4uLookup {
+	display:block;
+}
+
+.Pc4uWooPostcode {
+  float: right;
+}
+.Pc4uWooLookup {
+  float: right;
+}
+
+.Pc4uCF7lookup {
+    /* cursor:default !important;   */
+}
+
+.Pc4uCF7Postcode::-webkit-input-placeholder {
+    text-transform: initial;
+}
+.Pc4uCF7Postcode::-moz-placeholder {
+    text-transform: initial;
+}
+
+.Pc4uCF7Postcode:-moz-placeholder {
+    text-transform: initial;
+}
+.Pc4uCF7Postcode::-ms-input-placeholder { /* MS 'Edge' */
+  text-transform: initial;
+}
+
+.Pc4uCF7Postcode:-ms-input-placeholder { /* IE 10+ */
+  text-transform: initial;
+}
+

@@ -1,0 +1,109 @@
+/***************************************/
+/* Postcodes4u Control Styling  - v1.1 */
+/*  Updated KRF 2022.06.28             */
+/*   GF Style Tweaks to 'ginput_full'  */
+/***************************************/
+
+/* General */
+.Pc4uLookup {
+    display:block;
+}
+
+/* WooCommerce */
+.Pc4uWooPostcode {
+  float: right;
+}
+.Pc4uWooLookup {
+  float: right;
+}
+
+/* Gravity Forms */
+
+/*    Gravity Forms Postcode Lookup Button Styling */
+.Pc4uGfLookup {
+    max-width:45%;
+    padding:8px;
+}
+
+/*    Gravity Forms Manual Address Button Styling */
+.Pc4uGfManLookup {
+    float:right;
+    max-width:45%;     
+    padding:8px;
+}
+
+/*    When Show Address when selected option is used (Fields initially hidden)- show form full width */
+.ginput_container_address .pc4uGfPostcodeLookupAddress {
+    /* Equivalent to - ginput_full */
+    flex: 0 0 100% !important;    
+    padding-left:8px !important;           
+}
+
+
+
+@media only screen and (min-width: 641px) {
+
+   
+    
+    .pc4uGfPostcodeLookupAddress .ginput_right{
+        float:right !important;    
+        padding-left:0 !important;           
+        min-width:50%;
+    }
+    
+    .pc4uGfPostcodeLookupAddress .ginput_left{
+        float:left !important;    
+        padding-left:0 !important;            
+        min-width:49%;
+    }
+    
+    .pc4uGfPostcodeLookupAddress .ginput_full{
+        float:left !important;    
+        padding-left:0 !important;                
+    }
+}
+
+@media only screen and (max-width: 640px) {
+
+    .pc4uGfPostcodeLookupAddress .ginput_left{
+        /* float:right !important;     */
+        padding-left:0 !important;    
+    }
+    .pc4uGfPostcodeLookupAddress .ginput_left{
+    /*    float:left !important;    */
+        padding-left:0 !important;    
+    }
+    
+    .pc4uGfPostcodeLookupAddress .ginput_full{
+        float:left !important;    
+        padding-left:0 !important;                
+    }
+}
+
+
+
+
+/* ContactForm7 */
+.Pc4uCF7lookup {
+    /* cursor:default !important;   */
+}
+
+.Pc4uCF7Postcode::-webkit-input-placeholder {
+    text-transform: initial;
+}
+.Pc4uCF7Postcode::-moz-placeholder {
+    text-transform: initial;
+}
+
+.Pc4uCF7Postcode:-moz-placeholder {
+    text-transform: initial;
+}
+.Pc4uCF7Postcode::-ms-input-placeholder { /* MS 'Edge' */
+  text-transform: initial;
+}
+
+.Pc4uCF7Postcode:-ms-input-placeholder { /* IE 10+ */
+  text-transform: initial;
+}
+
+
